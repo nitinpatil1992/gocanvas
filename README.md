@@ -1,5 +1,5 @@
 # GoCanvas
-Title bit fun with go on commadline to draw basic grafics
+Title bit fun with golang on commadline to draw basic geometric canvas
 
 # Outputs
 
