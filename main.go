@@ -24,7 +24,11 @@ func main() {
 			s = Circle{radius}
 			s.draw()
 		case 2:
-
+			var height int
+			fmt.Println("Enter height")
+			fmt.Scanln(&height)
+			s = Triangle{height}
+			s.draw()
 		case 3:
 
 		case 4:
