@@ -7,6 +7,7 @@ import (
 
 func main() {
 	var option int
+	var s Shape
 	for {
 		fmt.Println("Enter options number for drawing")
 		fmt.Println("1) Circle")
@@ -17,7 +18,11 @@ func main() {
 		fmt.Scanln(&option)
 		switch option {
 		case 1:
-
+			var radius int
+			fmt.Println("Enter radius")
+			fmt.Scanln(&radius)
+			s = Circle{radius}
+			s.draw()
 		case 2:
 
 		case 3:
