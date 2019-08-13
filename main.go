@@ -30,7 +30,11 @@ func main() {
 			s = Triangle{height}
 			s.draw()
 		case 3:
-
+			var height, width int
+			fmt.Println("Enter height and width with space separated value")
+			fmt.Scanf("%d %d", &height, &width)
+			s = Rectangle{height, width}
+			s.draw()
 		case 4:
 			os.Exit(0)
 		}
